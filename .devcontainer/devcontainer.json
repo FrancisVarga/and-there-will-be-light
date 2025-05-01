@@ -1,4 +1,11 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {}
+  "features": {
+    "ghcr.io/shyim/devcontainers-features/bun:0": {},
+    "ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {},
+    "ghcr.io/jsburckhardt/devcontainer-features/uv:1": {},
+    "ghcr.io/devcontainers-community/features/typescript": {},
+    "ghcr.io/joshuanianji/devcontainer-features/terraform-cli-persistence:1": {},
+    "ghcr.io/devcontainers-extra/features/apt-get-packages:1": {}
+  }
 }
